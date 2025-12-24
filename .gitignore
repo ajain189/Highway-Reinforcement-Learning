@@ -1,5 +1,3 @@
-# .gitignore for ML-highway-RL Python project
-# Generated to ignore common Python, macOS, IDE, virtualenv, and ML artifacts
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
