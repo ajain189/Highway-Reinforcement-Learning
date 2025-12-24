@@ -1,0 +1,111 @@
+# .gitignore for ML-highway-RL Python project
+# Generated to ignore common Python, macOS, IDE, virtualenv, and ML artifacts
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# virtualenv
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# VSCode, JetBrains
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# TensorBoard and training runs
+#runs/
+#events.out.tfevents*
+
+# Visualizations and outputs
+visualizations/
+
+# Models and checkpoints (PyTorch, TensorFlow, Keras)
+#*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.tflite
+models/
+
+# dotenv
+.env
+.env.*
+
+# Temporary files
+*.swp
+*~
+tmp/
+temp/
+__MACOSX/
+
+# Data directories (if you have raw datasets that shouldn't be tracked)
+data/
+dataset/
+datasets/
+
+# Optional: ignore large iteration folder contents (uncomment if desired)
+#iteration(models)/
+generate_visualizations.py
+
